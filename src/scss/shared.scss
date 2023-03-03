@@ -1,0 +1,69 @@
+$spacing: 0.5;
+
+html {
+    font-size: 2.2vmin;
+}
+
+.ml-1 {
+    margin-left: $spacing * 1%;
+}
+.ml-2 {
+    margin-left: $spacing * 2%;
+}
+
+.mr-1 {
+    margin-right: $spacing * 1%;
+}
+.mr-2 {
+    margin-right: $spacing * 2%;
+}
+
+.mt-1 {
+    margin-top: $spacing * 1%;
+}
+.mt-2 {
+    margin-top: $spacing * 2%;
+}
+
+.mb-1 {
+    margin-bottom: $spacing * 1%;
+}
+.mb-2 {
+    margin-bottom: $spacing * 2%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+nav {
+    border-bottom: 2px solid lightblue;
+    padding: 1%;
+}
+
+.cookiesModal {
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 12px 1px lightblue;
+    background: white;
+    padding: 1% 2%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    z-index: 999999;
+
+    h1 {
+        font-size: 130%;
+        margin: 0 0 0.5% 0;
+    }
+
+    p {
+        margin: 0 0 1% 0;
+        font-size: 90%;
+    }
+}
